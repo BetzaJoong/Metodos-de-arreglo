@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 241, 240);
+}
+
+h1 {
+    font-family: 'Martian Mono', monospace;
+}
+
+h3 {
+    font-family: 'Inconsolata', monospace;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    text-align: center;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 7px;
+}
+
+h6 {
+    font-family: 'Caprasimo', cursive;
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(234, 222, 55, 0.5);
+    padding: 0px;
+    color: rgb(14, 14, 14);
+}
+
+input {
+    font-family: 'Suravaram', serif;
+    font-weight: 150;
+    width: 70%;
+    height: 2em;
+}
+
+button {
+    font-family: 'Crimson Text', serif;
+}
+
+
+/* Iconos */
+
+i {
+    font-size: 1.3rem;
+}
+
+.bi-trash-fill {
+    color: #dc3545;
+}
+
+.fa-clipboard {
+    color: #198754;
+}
+
+.icon-button {
+    border: none;
+    background: none;
+    padding: 20;
+    cursor: pointer;
+}
+
+.icon-button i {
+    font-size: 23px;
+}
+
+.completada {
+    text-decoration: line-through;
+}
